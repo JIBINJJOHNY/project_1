@@ -18,7 +18,7 @@ header {
   background:rgba(253, 251, 251, .8);
 }
 .logo {
-   width:150px
+   width:200px
 }
 .nav-toggle {
     display: none;
@@ -41,7 +41,7 @@ header {
 }
    
 
-nav {
+nav{
     position: absolute;
     text-align: right;
     top: 100%;
@@ -88,56 +88,64 @@ nav a:hover {
 }
 #hero{
     height: 700px;
-        width: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .hero-image {
-    min-height: 700px;
-     background: url("../images/home/hero-image4.jpeg");
+    height: 700px;
+    background: url("../images/home/hero-image4.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#cast {
+    background: url(../images/cast/cast_background.jpg);
     background-size: cover; 
     position: relative;
     background-repeat: no-repeat;
-    background-position: center;
-  
-}
-#cast {
-height: 1000px;
-}
-
-.main_cast {
-    display: grid; 
-    grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-content:center;
-    position: absolute;
-  
-}
-#cast > h2 {
+    background-position: center;}
+    #cast > h2 {
         text-align: center;
         padding-bottom: 15px;
         color: 	#dc143c;
         text-shadow: 0 5px 10px rgba(0,0,0,.3);
         font-size: 50px;
-}
-.characters { 
-
-}
-.cast_images {
-    width: 180px;
-    height: 180px;
+    }
+    .main_cast {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    text-align: center;
+    padding-right: 50px;
+    }.cast_images {
+    height: 200px;
+    width: 200px;
+   
     border: 6px solid #BFA561;
     border-radius: 50%;
-}
-figcaption {
-padding-top: 10px;
-font-weight: bold;
-}
-@media screen and (min-width:700px) {
+   
+    }
+    .cast_images:hover {
+    transform: scale(1.1);
+    }
+    figcaption{
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #award{
+
+    }
+    
+    
+
+@media only screen and (min-width:700px) {
     .nav-toggle-label {
         display:none
     }
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px,4fr) 1fr;
+        grid-template-columns: 1fr auto minmax(600px,10fr) 1fr;
 
     }
     .logo {
@@ -162,11 +170,9 @@ font-weight: bold;
         margin-bottom: 0;
 
     }nav a {
-        opacity: 1;
-    }.hero-image { 
-    min-height: 700px;
-    }
-    #cast{
+     opacity: 1;
+
+    }#cast{
         padding: 20px 10%;
         background: url(../images/cast/cast_background.jpg);
         background-size: cover; 
@@ -175,35 +181,34 @@ font-weight: bold;
         background-position: center;
         height: 1200px;
        
-    }
-    #cast > h2 {
+    }#cast > h2 {
         text-align: center;
         padding-bottom: 15px;
         color: 	#dc143c;
         text-shadow: 0 5px 10px rgba(0,0,0,.3);
         font-size: 50px;
-    }.characters{
-        padding: 7px 11%;
-    }
-    .main_cast {
-    display: grid; 
-    grid-template-columns: repeat(3,1fr);
+    }.main_cast {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     gap: 3rem;
-    grid-auto-rows: 250px; 
-    justify-content: center;
-    align-content:center;
-   
-   
+    text-align: center;
+
     }.cast_images {
-    width: 200px;
     height: 200px;
+    width: 200px;
     border: 6px solid #BFA561;
     border-radius: 50%;
     box-shadow: 10px 5px 5px rgb(58, 37, 37);
-    }figcaption {
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 20px;
+
+    }.cast_images:hover {
+    transform: scale(1.1);
+
+    }figcaption{
+        font-size:20px;
+        font-weight: bold;
+    }#awards{
+
     }
+
+    
 }
-   
