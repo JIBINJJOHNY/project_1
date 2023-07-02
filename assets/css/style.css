@@ -128,12 +128,14 @@ nav a:hover {
     .cast_images:hover {
     transform: scale(1.1);
     }
-    figcaption{
+    .cast_name{
         padding-top: 10px;
         font-size: 20px;
         font-weight: bold;
     }
-    #award{
+    #awards {
+
+
 
     }
     
@@ -187,28 +189,71 @@ nav a:hover {
         color: 	#dc143c;
         text-shadow: 0 5px 10px rgba(0,0,0,.3);
         font-size: 50px;
-    }.main_cast {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 3rem;
-    text-align: center;
+        }.main_cast {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 3rem;
+        text-align: center;
 
-    }.cast_images {
-    height: 200px;
-    width: 200px;
-    border: 6px solid #BFA561;
-    border-radius: 50%;
-    box-shadow: 10px 5px 5px rgb(58, 37, 37);
+        }.cast_images {
+        height: 200px;
+        width: 200px;
+        border: 6px solid #BFA561;
+        border-radius: 50%;
+        box-shadow: 10px 5px 5px rgb(58, 37, 37);
 
-    }.cast_images:hover {
-    transform: scale(1.1);
+        }.cast_images:hover {
+        transform: scale(1.1);
 
-    }figcaption{
-        font-size:20px;
-        font-weight: bold;
+        }.cast_name{
+            font-size:20px;
+            font-weight: bold;
     }#awards{
+        padding: 20px 10%;
+        background: url(../images/cast/cast_background.jpg);
+        background-size: cover; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1000px;
+       
+        }#awards > h2 {
+        text-align: center;
+        padding-bottom: 15px;
+        color: 	#dc143c;
+        text-shadow: 0 5px 10px rgba(0,0,0,.3);
+        font-size: 50px;
+        }.award_column {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1 1 33%;
+            justify-content: space-between;
+            align-items: center;
+         
 
-    }
+     
+        }.cards {
+            flex: 1 1 30%;
+            display: flex;
+            align-items: center;
+            margin: 15px 17px;
+            flex-direction: column;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0,0,0,.4);
+            padding: 10px 12px;
+            flex-wrap: wrap;
+            align-self: normal;
+            text-align: center;
+        }.cards:hover{
+            transform: scale(.96) translateY(-5px);
+        }
+        .trophy {
+            width: 100px;
+            height: 180px;
+            margin-bottom: 15px;
+            background-size: cover;
 
+        }
+    
     
 }
