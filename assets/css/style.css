@@ -8,7 +8,14 @@ body {
     background: white;
     font-family: Lato,sans-serif;
     font-weight: 400;
-}
+}h2 {
+        text-align: center;
+        padding-bottom: 15px;
+        color: 	#dc143c;
+        text-shadow: 0 5px 10px rgba(0,0,0,.3);
+        font-size: 50px;
+        margin-top: 0px;
+    }
 header {
   text-align: center ;
   position: fixed;
@@ -87,29 +94,25 @@ nav a:hover {
      transition: opacity 250ms ease-in-out 300ms;
 }
 #hero{
-    height: 700px;
+    height: 900px;
     width: 100%;
     overflow: hidden;
 }
 .hero-image {
-    height: 700px;
+    height: 900px;
     background: url("../images/home/hero-image4.jpeg");
     background-size: cover; 
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position:center center;
 }
 #cast {
     background: url(../images/cast/cast_background.jpg);
     background-size: cover; 
     position: relative;
     background-repeat: no-repeat;
-    background-position: center;}
-    #cast > h2 {
-        text-align: center;
-        padding-bottom: 15px;
-        color: 	#dc143c;
-        text-shadow: 0 5px 10px rgba(0,0,0,.3);
-        font-size: 50px;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0px;
     }
     .main_cast {
     display: grid;
@@ -133,12 +136,61 @@ nav a:hover {
         font-size: 20px;
         font-weight: bold;
     }
-    #awards {
+#awards{
+        padding: 20px 10%;
+        background: url(../images/cast/cast_background.jpg);
+        background-size: cover; 
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 1700px;
+        }.award_column {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+        justify-content: space-between;
+        align-items: center;
+        }.cards {
+        flex: 1 1 30%;
+        display: flex;
+        align-items: center;
+        margin: 15px 17px;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 0 15px rgba(0,0,0,.4);
+        padding: 10px 12px;
+        flex-wrap: wrap;
+        align-self: normal;
+        text-align: center;
+        border-radius: 10px;
+        }.cards:hover{
+        transform: scale(.96) translateY(-5px);
+        }
+        .trophy {
+        width: 100px;
+        height: 180px;
+        margin-bottom: 15px;
+        background-size: cover;
+        }
+#about {
+        padding: 20px 10%;
+        padding-bottom: 100px;
+        background: url(../images/home/hero-image1.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
 
+    }
+
+    #about>.story {
+        border: 1px solid rgba(60, 60, 60, 1.1);
+        background: rgba(60, 60, 60, 0.6);
+        color: white;
+        padding: 30px;
+        text-align: center;
 
 
     }
-    
     
 
 @media only screen and (min-width:700px) {
@@ -181,57 +233,45 @@ nav a:hover {
         position: relative;
         background-repeat: no-repeat;
         background-position: center;
+        background-attachment: fixed;
         height: 1200px;
        
-    }#cast > h2 {
-        text-align: center;
-        padding-bottom: 15px;
-        color: 	#dc143c;
-        text-shadow: 0 5px 10px rgba(0,0,0,.3);
-        font-size: 50px;
         }.main_cast {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        gap: 3rem;
-        text-align: center;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            gap: 3rem;
+            text-align: center;
+            margin-right: 30px;
 
         }.cast_images {
-        height: 200px;
-        width: 200px;
-        border: 6px solid #BFA561;
-        border-radius: 50%;
-        box-shadow: 10px 5px 5px rgb(58, 37, 37);
+            height: 200px;
+            width: 200px;
+            border: 6px solid #BFA561;
+            border-radius: 50%;
+            box-shadow: 10px 5px 5px rgb(58, 37, 37);
 
         }.cast_images:hover {
-        transform: scale(1.1);
+            transform: scale(1.1);
 
         }.cast_name{
             font-size:20px;
             font-weight: bold;
-    }#awards{
-        padding: 20px 10%;
-        background: url(../images/cast/cast_background.jpg);
-        background-size: cover; 
-        position: relative;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 1000px;
-       
-        }#awards > h2 {
-        text-align: center;
-        padding-bottom: 15px;
-        color: 	#dc143c;
-        text-shadow: 0 5px 10px rgba(0,0,0,.3);
-        font-size: 50px;
+        }
+    #awards{
+            padding: 20px 10%;
+            background: url(../images/cast/cast_background.jpg);
+            background-size: cover; 
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 1400px;
         }.award_column {
             display: flex;
             flex-wrap: wrap;
             flex: 1 1 33%;
             justify-content: space-between;
             align-items: center;
-         
-
-     
         }.cards {
             flex: 1 1 30%;
             display: flex;
@@ -244,6 +284,7 @@ nav a:hover {
             flex-wrap: wrap;
             align-self: normal;
             text-align: center;
+             border-radius: 10px;
         }.cards:hover{
             transform: scale(.96) translateY(-5px);
         }
@@ -252,8 +293,22 @@ nav a:hover {
             height: 180px;
             margin-bottom: 15px;
             background-size: cover;
-
         }
-    
-    
-}
+    #about {
+            padding: 20px 10%;
+            padding-bottom: 100px;
+            background: url(../images/home/hero-image1.jpg) no-repeat;
+            background-size: cover;
+
+        }#about>.story {
+            background: rgba(240, 240, 221, 0.7);
+            box-shadow: 10px 5px 5px rgb(70, 68, 68);
+            letter-spacing: 1px;
+            text-indent: 50px;
+            text-align: justify;
+            color: rgb(8, 7, 7);
+            font-size: 20px;
+            padding: 30px;
+            }
+   
+        }
