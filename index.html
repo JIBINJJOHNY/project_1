@@ -10,13 +10,11 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>the pursuit of happyness</title>
 </head>
-
+<!-- Header -->
 <body>
   <header>
-    <a href="index.html"></a>
-    <img src="assets/images/home/logo.png" alt="website logo" class="logo">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <nav>
+    <a href="index.html">
+    <img src="assets/images/home/logo.png" alt="website logo" class="logo"></a>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#cast">Cast</a></li>
@@ -30,10 +28,10 @@
     </label>
   </header>
   <main>
-    <!-- Header -->
-
+   
     <!-- Hero image -->
     <section id="hero-outer">
+      <h2>main image</h2>
       <div class="hero-image"></div>
     </section>
     <!-- Cast page -->
@@ -232,7 +230,7 @@
     <!-- Review page -->
     <section id="review">
       <h2>Review</h2>
-      <form method="POST" action="#" class="review-form">
+      <form method="GET" action="#" class="review-form">
         <div>
           <label for="name"><i class="far fa-user"></i> Name:</label>
           <input type="text" id="name" name="name" placeholder="Name" required>
@@ -248,19 +246,20 @@
 
         <label><i class=" fa-regular fa-star"></i> Rating:</label>
         <div class="star-rating">
-          <input type="radio" name="stars" id="star1" value="5">
+          
+          <input type="radio" id="star1" name="stars"  value="5">
           <label for="star1"></label>
 
-          <input type="radio" name="stars" id="star2" value="4">
+          <input type="radio" id="star2" name="stars"  value="4">
           <label for="star2"></label>
 
-          <input type="radio" name="stars" id="star3" value="3">
+          <input type="radio" id="star3"  name="stars" value="3">
           <label for="star3"></label>
 
-          <input type="radio" name="stars" id="star4" value="2">
+          <input type="radio" id="star4" name="stars"  value="2">
           <label for="star4"></label>
 
-          <input type="radio" name="stars" id="star5" value="1">
+          <input type="radio" id="star5" name="stars"  value="1">
           <label for="star5"></label>
         </div>
         <div class="form-btn">
@@ -276,30 +275,28 @@
     <ul class="social-media">
       <li>
         <a href="https://facebook.com" target="_blank" rel="noopener" class="icon-links"
-          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"
-            style="color: #1a77f2"></i></a>
+          aria-label="Visit our Facebook page (opens in a new tab)">
+          <i class="fa-brands fa-facebook"></i></a>
       </li>
       <li>
         <a href="https://instagram.com" target="_blank" rel="noopener" class="icon-links"
-          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"
-            style="color: #d9465f"></i></a>
+          aria-label="Visit our Instagram page (opens in a new tab)">
+            <i class="fa-brands fa-instagram"></i></a>
       </li>
 
       <li>
         <a href="https://youtube.com" target="_blank" rel="noopener" class="icon-links"
-          aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"
-            style="color: #f50f0f"></i></a>
+          aria-label="Visit our YouTube page (opens in a new tab)">
+            <i class="fa-brands fa-youtube"></i></a>
       </li>
       <li>
         <a href="https://twitter.com" target="_blank" rel="noopener" class="icon-links"
-          aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"
-            style="color: #1d9bf0"></i></a>
+          aria-label="Visit our Twitter page (opens in a new tab)">
+            <i class="fa-brands fa-twitter"></i></a>
       </li>
     </ul>
     <p>©2023 All Rights Reserved.</p>
   </footer>
-  <script src="https://kit.fontawesome.com/808d24aade.js" crossorigin="anonymous">
-  </script>
-</body>
-
+    <script src="https://kit.fontawesome.com/808d24aade.js" crossorigin="anonymous"></script>
+  </body>
 </html>

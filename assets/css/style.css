@@ -116,6 +116,8 @@ nav a:hover {
     height: 900px;
     width: 100%;
     overflow: hidden;
+}#hero-outer>h2{
+    display: none;
 }
 
 .hero-image {
