@@ -11,28 +11,29 @@
   <title>the pursuit of happyness</title>
 </head>
 
-<bodye>
+<body>
+  <header>
+    <a href="index.html"></a>
+    <img src="assets/images/home/logo.png" alt="website logo" class="logo">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#cast">Cast</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#review">Review</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span><img src="assets/images/home/bars-solid.svg" alt="menu burger icon"></span>
+    </label>
+  </header>
   <main>
     <!-- Header -->
-    <header>
-      <a href="index.html"></a>
-      <img src="assets/images/home/logo.png" alt="website logo" class="logo">
-      <input type="checkbox" id="nav-toggle" class="nav-toggle">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#cast">Cast</a></li>
-          <li><a href="#awards">Awards</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#review">Review</a></li>
-        </ul>
-      </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span><img src="assets/images/home/bars-solid.svg" alt="menu burger icon"></span>
-      </label>
-    </header>
+
     <!-- Hero image -->
-    <section id="hero">
+    <section id="hero-outer">
       <div class="hero-image"></div>
     </section>
     <!-- Cast page -->
@@ -89,12 +90,12 @@
           <figcaption class="awards_name">
             <h3>Academy Awards (Oscars)</h3>
             <p>
-              Nomination for Best Actor - Will Smith <br />
+              Nomination for Best Actor - Will Smith <br>
               Nomination for Best Original Song - "Listen" by Will.i.am
             </p>
           </figcaption>
-        </figure class="cards">
-        <figure class="cards">
+        </figure>
+        <figure class=" cards">
           <img src="assets/images/awards/criticchoice.png"
             alt="The American-Canadian Critics Choice Association hosts the Critics' Choice Movie Awards each year to recognize the best in cinematic achievement."
             class="trophy">
@@ -135,7 +136,7 @@
             <h3>NAACP Image Awards</h3>
             <p>
               Will Smith won the NAACP Image Award for Outstanding Actor in a
-              Motion Picture <br />
+              Motion Picture <br>
               The film won the NAACP Image Award for Outstanding Motion Picture
             </p>
           </figcaption>
@@ -149,7 +150,7 @@
             <h3>Golden glob Awards</h3>
             <p>
               Nomination for best performance by an Actor in a Motion Picture
-              drama-Will Smith <br />
+              drama-Will Smith <br>
               Nomination for best original song Motion Picture
               seal(music/lyric)-Christopher Bruce(music)
             </p>
@@ -158,9 +159,11 @@
 
       </div>
     </section>
+    <!-- About page -->
+
     <section id="about">
       <h2>About</h2>
-      <article class="story">
+      <article class="story-about">
         <p>
           <strong> "The Pursuit of Happyness"</strong> is a biographical drama
           film based on the true story of Chris Gardner's life.It was released
@@ -204,16 +207,18 @@
           walking through the streets,finally achieving his dream and inspiring
           others through his remarkable journey.
         </p>
-        <p>
-          "The Pursuit of Happyness" is a powerful and inspiring story that
-          highlights the importance of never giving up,even in the face of
-          seemingly insurmountable obstacles.It serves as a reminder that with
-          determination,resilience,and a positive mindset, one can overcome
-          adversity and create a better life.
+        <P>
+          The Pursuit of Happyness is a powerful and inspiring story that highlights the importance of never giving
+          up,
+          even in the face of seemingly insurmountable obstacles.It serves as a reminder that with determination,
+          resilience,and a positive mindset,one can overcome adversity and create a better life.
         </p>
       </article>
     </section>
-    <section id="quotes">
+    g
+    <!-- Quotes -->
+
+    <section id="quotes-outer">
       <blockquote>
         <p class="quote-text">
           <q>
@@ -224,23 +229,24 @@
         </p>
       </blockquote>
     </section>
+    <!-- Review page -->
     <section id="review">
       <h2>Review</h2>
-      <form method="POST" action="" class="review-form">
+      <form method="POST" action="#" class="review-form">
         <div>
           <label for="name"><i class="far fa-user"></i> Name:</label>
-          <input type="text" id="name" name="name" placeholder="Name" required />
+          <input type="text" id="name" name="name" placeholder="Name" required>
         </div>
         <div>
           <label for="email"><i class="far fa-envelope"></i> Email:</label>
-          <input type="email" id="email" name="email" placeholder="Email ID" required />
+          <input type="email" id="email" name="email" placeholder="Email ID" required>
         </div>
         <div>
           <label for="user_experince"><i class="fa-sharp fa-solid fa-pencil"></i> Review:</label>
           <textarea id="user_experince" name="review" placeholder="Write your movie experience" required></textarea>
         </div>
 
-        <legend><i class="fa-regular fa-star"></i> Rating:</legend>
+        <label><i class=" fa-regular fa-star"></i> Rating:</label>
         <div class="star-rating">
           <input type="radio" name="stars" id="star1" value="5">
           <label for="star1"></label>
@@ -263,6 +269,7 @@
       </form>
     </section>
   </main>
+  <!-- Footer -->
   <footer>
 
     <h3>Follow Us:</h3>
@@ -290,10 +297,9 @@
       </li>
     </ul>
     <p>©2023 All Rights Reserved.</p>
-    </div>
   </footer>
   <script src="https://kit.fontawesome.com/808d24aade.js" crossorigin="anonymous">
   </script>
-  </body>
+</body>
 
 </html>
