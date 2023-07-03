@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto&display=swap');
-
+/* universal box-sizing */
 *,
 *::before,
 *::after {
@@ -11,6 +11,8 @@ body {
     background: white;
     font-family: Lato, sans-serif;
     font-weight: 400;
+    right: 0;;
+    
 }
 
 h2 {
@@ -26,18 +28,17 @@ h2 {
 header {
     text-align: center;
     position: fixed;
-
     z-index: 999;
     width: 100%;
     background: rgba(253, 251, 251, .8);
 }
-
 .logo {
     width: 200px
 }
 
+
 .nav-toggle {
-    display: none;
+   display: none;
 }
 
 .nav-toggle-label {
@@ -219,7 +220,8 @@ nav a:hover {
     background: url(../images/home/hero-image1.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
+}.story-about  > h3{
+    display: none;
 }
 
 #about>.story-about {
@@ -237,8 +239,10 @@ nav a:hover {
     display: flex;
     text-align: center;
     background: #FAE9E9;
-}
+}#quotes-outer > h2{
+    display: none;
 
+}
 .quote-text {
     font-style: italic;
     line-height: 1.5;
@@ -353,10 +357,8 @@ textarea {
 
 }
 
-
-
 .form-btn input {
-    display: block;
+
     width: 100%;
     padding: 5px;
     font-size: 15px;
@@ -567,7 +569,7 @@ footer {
     }
 
     .form-btn input {
-        display: block;
+       
         width: 100%;
         padding: 10px;
         font-size: 20px;
@@ -587,23 +589,22 @@ footer {
 
 /* For medium to large screens sizes from 950px wide and up */
 @media only screen and (min-width:950px) {
-    .nav-toggle-label {
-        display: none
+    .nav-toggle-label { 
+        display: none;
     }
+ header{
+    display: grid;
+    grid-template-columns: 1fr auto minmax(750px, 3fr) 1fr;
+}
 
-    header {
-        display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 10fr) 1fr;
+.logo {
 
-    }
+    grid-column: 2 / 3;
+}
 
-    .logo {
-        grid-column: 2 / 3;
-    }
-
-    nav {
+nav {
         all: unset;
-        grid-column: 3/4;
+        grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -629,7 +630,6 @@ footer {
         opacity: 1;
 
     }
-
     #cast {
         padding: 20px 10%;
         background: url(../images/cast/cast_background.jpg);
@@ -739,6 +739,8 @@ footer {
         text-align: center;
         background: #FAE9E9;
     }
+    
+   
 
     .quote-text {
         font-style: italic;
@@ -867,7 +869,7 @@ footer {
     }
 
     .form-btn input {
-        display: block;
+       
         width: 100%;
         padding: 10px;
         font-size: 25px;
