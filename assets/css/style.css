@@ -111,7 +111,8 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 300ms;
 }
 
-#hero {
+/* Hero image*/
+#hero-outer {
     height: 900px;
     width: 100%;
     overflow: hidden;
@@ -125,6 +126,7 @@ nav a:hover {
     background-position: center center;
 }
 
+/* Cast*/
 #cast {
     background: url(../images/cast/cast_background.jpg);
     background-size: cover;
@@ -162,6 +164,7 @@ nav a:hover {
     font-weight: bold;
 }
 
+/*Awards*/
 #awards {
     padding: 20px 10%;
     background: url(../images/cast/cast_background.jpg);
@@ -207,6 +210,7 @@ nav a:hover {
     background-size: cover;
 }
 
+/*About*/
 #about {
     padding: 20px 10%;
     padding-bottom: 100px;
@@ -216,7 +220,7 @@ nav a:hover {
 
 }
 
-#about>.story {
+#about>.story-about {
     border: 1px solid rgba(60, 60, 60, 1.1);
     background: rgba(60, 60, 60, 0.6);
     color: white;
@@ -226,7 +230,8 @@ nav a:hover {
 
 }
 
-#quotes {
+/* Movie Quotes*/
+#quotes-outer {
     display: flex;
     text-align: center;
     background: #FAE9E9;
@@ -240,6 +245,7 @@ nav a:hover {
     text-transform: lowercase;
 }
 
+/*Review form*/
 #review {
     width: 100%;
     height: 700px;
@@ -363,7 +369,7 @@ textarea {
     background-color: #045207
 }
 
-
+/*Footer*/
 footer {
     padding: 40px 0px;
     background-color: #333333;
@@ -395,6 +401,9 @@ footer {
 
 }
 
+/* Media queries */
+
+/* For small to medium screens sizes from 700px wide and up */
 @media only screen and (min-width:700px) {
     #cast {
         padding: 10px 5%;
@@ -573,6 +582,8 @@ footer {
     }
 }
 
+
+/* For medium to large screens sizes from 950px wide and up */
 @media only screen and (min-width:950px) {
     .nav-toggle-label {
         display: none
@@ -710,7 +721,7 @@ footer {
 
     }
 
-    #about>.story {
+    #about>.story-about {
         background: rgba(240, 240, 221, 0.7);
         box-shadow: 10px 5px 5px rgb(70, 68, 68);
         letter-spacing: 1px;
@@ -721,7 +732,7 @@ footer {
         padding: 30px;
     }
 
-    #quotes {
+    #quotes-outer {
         display: flex;
         text-align: center;
         background: #FAE9E9;
