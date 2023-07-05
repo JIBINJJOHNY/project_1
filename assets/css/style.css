@@ -8,6 +8,9 @@
     margin: 0;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
 
