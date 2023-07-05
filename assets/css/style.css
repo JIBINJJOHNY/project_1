@@ -324,7 +324,7 @@ textarea {
 
 }
 
-.form-btn input {
+.form-btn button {
    
     width: 100%;
     padding: 10px;
@@ -336,7 +336,7 @@ textarea {
 
 }
 
-.form-btn input:hover {
+.form-btn button :hover {
 
     background-color: #045207
 }
@@ -608,7 +608,7 @@ header{
 
     }
 
-    .form-btn input {
+    .form-btn button {
        
         width: 100%;
         padding: 10px;
@@ -620,7 +620,7 @@ header{
 
     }
 
-    .form-btn input:hover {
+    .form-btn button:hover {
 
         background-color: #045207
     }
@@ -787,7 +787,7 @@ header{
 
     }
 
-    .form-btn input {
+    .form-btn button {
        
         width: 100%;
         padding: 10px;
@@ -800,7 +800,7 @@ header{
 
     }
 
-    .form-btn input:hover {
+    .form-btn button:hover {
 
         background-color: #045207
     }
