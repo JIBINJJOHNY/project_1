@@ -206,7 +206,7 @@ header label{
     color: #a42722;
     max-width: 80em;
     margin: 1em;
-    text-transform:lowercase;
+    text-transform:capitalize;
 
 }
 
