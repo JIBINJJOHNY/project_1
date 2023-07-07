@@ -158,3 +158,6 @@ If you need to make a local clone:
 6. [Golden Globe Awards](https://www.pinterest.com/pin/587930926348902877/)
 
 
+### Background Images:
+1. [About page](https://www.netflix.com/title/70044605)
+2. [Review Page](https://www.wallpaperflare.com/the-pursuit-of-happyness-movies-wallpaper-titjo)

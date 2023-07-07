@@ -8,17 +8,14 @@
     margin: 0;
     text-decoration: none;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-
 body {
-
     background: white;
     font-family: Lato, sans-serif;
     font-weight: 400;
-  }
-
+}
 h2 {
     text-align: center;
     padding-bottom: 25px;
@@ -26,8 +23,8 @@ h2 {
     text-shadow: 0 5px 10px rgba(0, 0, 0, .3);
     font-size: 50px;
     margin-top: 0px;
-
-} header{
+} 
+header {
     position: fixed;
     top:0;
     left: 0;
@@ -37,12 +34,14 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000 ;
-
+    z-index: 1000 ;   
 }
+/* Logo */
 .logo{
-    width: 200px;
+
+ object-fit: cover;
 }
+/* Navigation bar */
 nav ul{
     list-style: none;       
 }
@@ -59,7 +58,8 @@ nav a{
 nav a:hover{
     background: #706e6e;
     color: #ffffff;
-}#toggle-button{
+}
+#toggle-button {
     display: none;
 }
 header label{
@@ -73,10 +73,10 @@ header label{
     height: 900px;
     width: 100%;
     overflow: hidden;
-}#hero-outer > h2{
+}
+#hero-outer > h2{
     display: none;
 }
-
 .hero-image {
     height: 900px;
     background: url("../images/home/hero-image4.jpeg");
@@ -84,7 +84,7 @@ header label{
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+/* Cast Section */
 #cast {
     padding: 20px 10%;
     background: url(../images/cast/cast_background.jpg);
@@ -93,10 +93,9 @@ header label{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 1200px;
+    height: 1000px;
 
 }
-
 .main_cast {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -105,26 +104,23 @@ header label{
     margin-right: 30px;
     padding-right: 50px;
 }
-
 .cast_images {
     height: 200px;
-    width: 200px;
+    max-width: 200px;
+    object-fit: cover;
     border: 6px solid #BFA561;
-    border-radius: 50%;
+    border-radius: 5%;
     box-shadow: 10px 5px 5px rgb(58, 37, 37);
-
 }
-
 .cast_images:hover {
     transform: scale(1.1);
-
 }
-
 .cast_name {
+    margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
 }
-
+/* Awards Section */
 #awards {
     padding: 20px 10%;
     background: url(../images/cast/cast_background.jpg);
@@ -135,7 +131,6 @@ header label{
     background-attachment: fixed;
     height: 950px;
 }
-
 .award_column {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +146,7 @@ header label{
     flex-direction: column;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, .4);
-    padding: 0px 40px;
+    padding: 30px 40px;
     flex-wrap: wrap;
     align-self: normal;
     text-align: center;
@@ -160,44 +155,43 @@ header label{
 .cards:hover {
     transform: scale(.96) translateY(-5px);
 }
-
 .trophy {
-    width: 100px;
+    max-width: 100px;
     height: 180px;
+    object-fit: cover;
     margin-bottom: 15px;
     background-size: cover;
 }
-
+/* About Section */
 #about {
     padding: 20px 10%;
     padding-bottom: 100px;
     background: url(../images/home/hero-image1.jpg) no-repeat;
     background-size: cover;
-
 }
-
-
 #about>.story-about {
     background: rgba(240, 240, 221, 0.7);
     box-shadow: 10px 5px 5px rgb(70, 68, 68);
-    letter-spacing: 1px;
-    text-indent: 50px;
+    letter-spacing: 0px;
+    text-indent: 20px;
     text-align: justify;
     color: rgb(8, 7, 7);
+    line-height: 32px;
+    margin-bottom: 30px;
     font-size: 20px;
     padding: 30px;
-}.story-about  > h3{
+}
+.story-about  > h3{
     display: none;
 }
-
+/* Quotes */
 #quotes-outer {
     display: flex;
     text-align: center;
-    
     background: #FAE9E9;
     padding: 25px;
-    
-}#quotes-outer > h2{
+}
+#quotes-outer > h2{
     display: none;
 }
 .quote-text {
@@ -207,19 +201,15 @@ header label{
     max-width: 80em;
     margin: 1em;
     text-transform:capitalize;
-
 }
-
+/* Review Section */
 #review {
     width: 100%;
     height: 1000px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #f5eeee), url(../images/home/image.jpeg);
     background-size: cover;
     background-position: center;
-
-
 }
-
 .review-form {
     margin: 0 auto;
     color: #fff;
@@ -229,17 +219,14 @@ header label{
     left: 0%;
     padding: 100px;
 }
-
 div {
     margin-bottom: 30px;
 }
-
 label {
     display: flex;
     width: 50px;
     font-weight: bold;
 }
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -252,24 +239,19 @@ textarea {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
-
 input[type="text"]:focus {
-    border: 3px solid rgb(251, 52, 52);
+    border: 3px solid #dc143c;
 }
-
 input[type="email"]:focus {
-    border: 3px solid rgb(251, 52, 52);
+    border: 3px solid #dc143c;
 }
-
 textarea:focus {
-    border: 3px solid rgb(251, 52, 52);
+    border: 3px solid #dc143c;
 }
-
 textarea {
     resize: vertical;
     max-height: 120px;
 }
-
 .star-rating {
     display: flex;
     align-items: center;
@@ -280,12 +262,10 @@ textarea {
     margin: 60px;
     position: relative;
 }
-
 /* hide the inputs */
 .star-rating input {
     display: none;
 }
-
 /* set properties of all labels */
 .star-rating>label {
     width: 20px;
@@ -293,58 +273,44 @@ textarea {
     font-size: 35px;
     transition: 0.1s ease-in;
     color: #edcf0e;
-
 }
-
 /* give label a hover state */
 .star-rating label:hover {
     color: #edcf0e;
     transition: 0.1s ease-in;
 }
-
 .star-rating label:active::before {
     transform: scale(1.1);
 }
-
 /* set shape of unselected label */
 .star-rating label::before {
     content: '\2606';
     position: absolute;
-
     line-height: 30px;
 }
-
 /* set full star shape for checked label and those that come after it */
 .star-rating input:checked~label:before {
     content: '\2605';
 }
-
 @-moz-document url-prefix() {
     .star-rating input:checked~label:before {
         font-size: 40px;
         line-height: 30px;
     }
-
 }
-
 .form-btn button {
-   
     width: 100%;
     padding: 10px;
     font-size: 25px;
     border: none;
     border-radius: 5px;
     color: #fff;
-    background: #118a25;
-
+    font-weight: bold;
+    background: #2ca03f;
 }
-
-.form-btn button :hover {
-
-    background-color: #045207
+.form-btn button:hover {
+    background-color: #0b3e0d;
 }
-
-
 footer {
     padding: 40px 0px;
     background-color: #333333;
@@ -353,38 +319,29 @@ footer {
     width: 100%;
     text-align: center;
 }
-
 .social-media {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3rem 0;
-
 }
-
 .social-media li {
     margin: 0px 40px;
 }
-
 .social-media a i {
     font-size: 2rem;
     color: #fff;
 }
-
 .social-media :hover {
     transform: scale(1.1);
-
 }
-
-
 /* Media queries */
 /* For large to medium screens sizes from 1274px wide and down */
 @media screen and (max-width:1200px) {
-    #cast{
-        height: 1200px;
+#cast {
+        height: 1500px;
     }
-    
     .main_cast {
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -392,14 +349,14 @@ footer {
         text-align: center;
         margin-right: 30px;
     }
-#awards{
-    height: 1100px;
-}
-.cards {
+#awards {
+    height: 1200px;
+    }
+    .cards {
     flex: 1 1 30%;
     display: flex;
     align-items: center;
-    margin: 10px 14px;
+    margin: 30px 14px;
     flex-direction: column;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, .4);
@@ -408,16 +365,17 @@ footer {
     align-self: normal;
     text-align: center;
     border-radius: 10px;
-}
+    }
 }
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width:950px) {
-header{
-    padding: 20px;
-   
-}header label{
+    header {
+    padding: 20px;  
+    }
+    header label {
     display: initial;
-}nav{
+    }
+    nav {
     position: absolute;
     text-align: right;
     top: 100%;
@@ -426,16 +384,14 @@ header{
     background:rgba(253, 251, 251, .8);
     border-top: 1px solid rgba(0, 0, 0, .1);
     display: none;
-
-
-}nav li{
+    }
+    nav li {
     width: 100%;
-}#toggle-button:checked ~ nav{
-    display: initial;
-    
-}
-   
-    #cast {
+    }
+    #toggle-button:checked ~ nav {
+    display: initial;   
+    }
+#cast {
         padding: 10px 5%;
         background: url(../images/cast/cast_background.jpg);
         background-size: cover;
@@ -443,11 +399,9 @@ header{
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        height: 1500px;
-}
-    
-
-    .main_cast {
+        height: 1300px;
+    }
+     .main_cast {
         display: grid;
         grid-template-columns: 50% 50%;
         text-align: center;
@@ -455,27 +409,22 @@ header{
         margin-right: 0px;
         margin-bottom: 0px;
     }
-
     .cast_images {
         height: 170px;
         width: 170px;
         border: 6px solid #BFA561;
-        border-radius: 50%;
+        border-radius: 5%;
         box-shadow: 10px 5px 5px rgb(58, 37, 37);
-
     }
-
     .cast_images:hover {
         transform: scale(1.1);
-
     }
-
     .cast_name {
         font-size: 20px;
         font-weight: bold;
         margin-top: 10px;
     }
-   #awards{
+#awards{
     height: 1300px;
    }
     .cards {
@@ -486,28 +435,24 @@ header{
         flex-direction: column;
         background-color: white;
         box-shadow: 0 0 15px rgba(0, 0, 0, .4);
-        padding: 0px 40px;
+        padding: 30px 40px;
         flex-wrap: wrap;
         align-self: normal;
         text-align: center;
         border-radius: 10px;
-        padding: 10px;
-    }
-
-    #review {
+        padding: 10px;}
+    
+ #review {
         width: 100%;
         height: 1000px;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), #f5eeee), url(../images/home/image.jpeg);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), #f5eeee), url(../images/home/image.jpeg);
         background-size: cover;
         background-position: center;
-
-
     }
-
     .review-form {
         margin: 0 auto;
         color: #fff;
-        background-color: rgba(60, 60, 60, 0.4);
+        background-color:rgba(60, 60, 60, 0.4);
         max-width: 500px;
         position: relative;
         left: 0%;
@@ -522,7 +467,6 @@ header{
         width: 50px;
         font-weight: bold;
     }
-
     input[type="text"],
     input[type="email"],
     textarea {
@@ -536,24 +480,19 @@ header{
         transition: 0.5s;
         margin-bottom: 0px;
     }
-
     input[type="text"]:focus {
-        border: 3px solid rgb(251, 52, 52);
+        border: 3px solid #dc143c;
     }
-
     input[type="email"]:focus {
-        border: 3px solid rgb(251, 52, 52);
+        border: 3px solid #dc143c;
     }
-
     textarea:focus {
-        border: 3px solid rgb(251, 52, 52);
+        border: 3px solid #dc143c;
     }
-
     textarea {
         resize: vertical;
         max-height: 120px;
     }
-
     .star-rating {
         display: flex;
         align-items: center;
@@ -564,12 +503,10 @@ header{
         margin: 60px;
         position: relative;
     }
-
     /* hide the inputs */
     .star-rating input {
         display: none;
     }
-
     /* set properties of all labels */
     .star-rating>label {
         width: 20px;
@@ -577,62 +514,48 @@ header{
         font-size: 35px;
         transition: 0.1s ease-in;
         color: #edcf0e;
-
     }
-
     /* give label a hover state */
     .star-rating label:hover {
         color: #edcf0e;
         transition: 0.1s ease-in;
     }
-
     .star-rating label:active::before {
         transform: scale(1.1);
     }
-
     /* set shape of unselected label */
     .star-rating label::before {
         content: '\2606';
         position: absolute;
-
         line-height: 30px;
     }
-
     /* set full star shape for checked label and those that come after it */
     .star-rating input:checked~label:before {
         content: '\2605';
     }
-
     @-moz-document url-prefix() {
         .star-rating input:checked~label:before {
             font-size: 40px;
             line-height: 30px;
         }
-
     }
-
     .form-btn button {
-       
         width: 100%;
         padding: 10px;
         font-size: 20px;
         border: none;
         border-radius: 5px;
         color: #fff;
-        background: #118a25;
-
+        background: #2ca03f;
     }
-
     .form-btn button:hover {
-
-        background-color: #045207
+        background-color: #0b3e0d;
     }
-
 }
 
 /* For small screens sizes from 750px wide and down */
 @media screen and (max-width:600px) {
-    #cast {
+#cast {
         padding: 10px 5%;
         background: url(../images/cast/cast_background.jpg);
         background-size: cover;
@@ -641,9 +564,7 @@ header{
         background-position: center;
         background-attachment: fixed;
         height: 1500px;
-
     }
-
     .main_cast {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -652,165 +573,24 @@ header{
         margin-right: 0px;
         margin-bottom: 0px;
     }
-
     .cast_images {
         height: 170px;
         width: 170px;
         border: 6px solid #BFA561;
-        border-radius: 50%;
+        border-radius: 5%;
         box-shadow: 10px 5px 5px rgb(58, 37, 37);
-
     }
-
     .cast_images:hover {
         transform: scale(1.1);
-
     }
-
     .cast_name {
         font-size: 20px;
         font-weight: bold;
     }
-
-    #review {
-        width: 100%;
-        height: 1000px;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), #f5eeee), url(../images/home/image.jpeg);
-        background-size: cover;
-        background-position: center;
-
-
-    }
-
-    .review-form {
-        margin: 0px auto;
-        color: #fff;
-        background-color: rgba(60, 60, 60, 0.4);
-        max-width: 500px;
-        position: relative;
-        left: 0%;
-        padding: 80px;
-    }
-
-    div {
-        margin-bottom: 30px;
-    }
-
-    label {
-        display: flex;
-        width: 50px;
-        font-weight: bold;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        outline: none;
-        margin-left: 20px;
-        box-sizing: border-box;
-        border: 3px solid rgb(91, 86, 86);
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-        margin-bottom: 0px;
-    }
-
-    input[type="text"]:focus {
-        border: 3px solid rgb(251, 52, 52);
-    }
-
-    input[type="email"]:focus {
-        border: 3px solid rgb(251, 52, 52);
-    }
-
-    textarea:focus {
-        border: 3px solid rgb(251, 52, 52);
-    }
-
-    textarea {
-        resize: vertical;
-        max-height: 120px;
-    }
-
-    .star-rating {
-        display: flex;
-        align-items: center;
-        width: 180px;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        gap: 3rem;
-        margin: 60px;
-        position: relative;
-    }
-
-    /* hide the inputs */
-    .star-rating input {
-        display: none;
-    }
-
-    /* set properties of all labels */
-    .star-rating>label {
-        width: 20px;
-        height: 20px;
-        font-size: 35px;
-        transition: 0.1s ease-in;
-        color: #edcf0e;
-
-    }
-
-    /* give label a hover state */
-    .star-rating label:hover {
-        color: #edcf0e;
-        transition: 0.1s ease-in;
-    }
-
-    .star-rating label:active::before {
-        transform: scale(1.1);
-    }
-
-    /* set shape of unselected label */
-    .star-rating label::before {
-        content: '\2606';
-        position: absolute;
-
-        line-height: 30px;
-    }
-
-    /* set full star shape for checked label and those that come after it */
-    .star-rating input:checked~label:before {
-        content: '\2605';
-    }
-
-    @-moz-document url-prefix() {
-        .star-rating input:checked~label:before {
-            font-size: 40px;
-            line-height: 30px;
-        }
-
-    }
-
-    .form-btn button {
-       
-        width: 100%;
-        padding: 10px;
-        font-size: 20px;
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        background: #118a25;
-        
-
-    }
-
-    .form-btn button:hover {
-
-        background-color: #045207;
-    }
 #awards{
     height: 1400px;
-
-}cards {
+}
+.cards {
     flex: 1 1 30%;
     display: flex;
     align-items: center;
@@ -824,7 +604,116 @@ header{
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-}
-}
+    }.story-about{
+        font-size: 15px;
+    }
 
-
+ #review {
+        width: 100%;
+        height: 1000px;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), #f5eeee), url(../images/home/image.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .review-form {
+        margin: 0px auto;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.4);
+        max-width: 500px;
+        position: relative;
+        left: 0%;
+        padding: 80px;
+    }
+    div {
+        margin-bottom: 30px;
+    }
+    label {
+        display: flex;
+        width: 50px;
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        margin-left: 20px;
+        box-sizing: border-box;
+        border: 3px solid rgb(91, 86, 86);
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        margin-bottom: 0px;
+    }
+    input[type="text"]:focus {
+        border: 3px solid rgb(251, 52, 52);
+    }
+    input[type="email"]:focus {
+        border: 3px solid rgb(251, 52, 52);
+    }
+    textarea:focus {
+        border: 3px solid rgb(251, 52, 52);
+    }
+    textarea {
+        resize: vertical;
+        max-height: 120px;
+    }
+    .star-rating {
+        display: flex;
+        align-items: center;
+        width: 180px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 3rem;
+        margin: 60px;
+        position: relative;
+    }
+    /* hide the inputs */
+    .star-rating input {
+        display: none;
+    }
+    /* set properties of all labels */
+    .star-rating>label {
+        width: 20px;
+        height: 20px;
+        font-size: 35px;
+        transition: 0.1s ease-in;
+        color: #edcf0e;
+    }
+    /* give label a hover state */
+    .star-rating label:hover {
+        color: #edcf0e;
+        transition: 0.1s ease-in;
+    }
+    .star-rating label:active::before {
+        transform: scale(1.1);
+    }
+    /* set shape of unselected label */
+    .star-rating label::before {
+        content: '\2606';
+        position: absolute;
+        line-height: 30px;
+    }
+    /* set full star shape for checked label and those that come after it */
+    .star-rating input:checked~label:before {
+        content: '\2605';
+    }
+    @-moz-document url-prefix() {
+        .star-rating input:checked~label:before {
+            font-size: 40px;
+            line-height: 30px;
+        }
+    }
+    .form-btn button {
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #2ca03f;
+    }
+    .form-btn button:hover {
+        background-color: #0b3e0d;
+    }
+}
