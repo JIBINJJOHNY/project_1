@@ -4,7 +4,8 @@ Welcome to the  website for "The Pursuit of Happyness" film! This website aims t
 "The Pursuit of Happyness" is a biographical drama film directed by Gabriele Muccino, released in 2006. It tells the extraordinary true story of Chris Gardner, a struggling salesman, and his determination to overcome adversity to build a better life for himself and his young son.
 
 Our website serves as a dedicated platform for fans of the film, as well as those who are interested in learning more about its cast, awards, storyline, and reviews. Here, you will find a collection of resources that delve into the various aspects of the movie and provide an interactive experience for visitors.
-## The design provided
+
+ The site can be accessed by this [link](https://jibinjjohny.github.io/projrct_1/)
 
 ![mockup screenshot](assets/images/readfile/screenshot.png)
 
@@ -25,13 +26,6 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 - Credits
 - Acknowledgments
 --------------------
-similar as possible to the provided images.
-I have also added various breakpoints in order to provide the best user experience.
-
-The solution to this challenge can be accessed by this [link](https://jibinjjohny.github.io/projrct_1/)
-
---------------------
-
 ## User Stories
 
 1. As a movie enthusiast, I want to explore the cast section to learn about the actors involved in "The Pursuit of Happyness" and their respective roles.
@@ -43,21 +37,61 @@ The solution to this challenge can be accessed by this [link](https://jibinjjohn
 4. As a passionate viewer, I want to share my thoughts and feelings about "The Pursuit of Happyness" by submitting a film review and rating in the review section.
 
 5. As a potential viewer, I want to access social media links available in the footer section to connect with the film's official profiles and stay updated with the latest news and updates.
+-------------------------
+
+##Features
+
+- ### Navbar
+
+- ##### Navigation
+    - Positioned at the top of the page.
+    - Contains logo of film on the left side.
+    - Contains navigation links on the right side:
+      - HOME - leads to the home page where users can have a look at the image of the film.
+      - CAST - leads to the cast page, where the user can have a look at the main cast of the film and the name of the character.
+      - AWARDS - leads to the awards page, where the user can have a look at the main awards the film has won and its category.
+      - ABOUT - leads to the about page, where the user can see an overview of the film.
+      - REVIEW -leads to the review form page, where users can share their reviews and ratings of films.
+    - The links have animated hover effect.  
+    - The navigation is clear and easy to understand for the user.
+      - ![navigationbar](assets/images/readfile/navbar.png)
+    - The navigation bar is responsive with hamburger menu:
+
+      - ![tablet navbar](assets/images/readfile/tablet_nav.png)
+    - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+      - ![mobile navbar](assets/images/readfile/mobile_navg.png)
+
+##### Home Page:
+   - Represent:
+      -  Contains an image from the film.
+      - The main actors and actresses who appeared in the film.
+      - Contains the notable awards and nominations for the film.
+      - Short summary of the film.
+      - The famous inspiring quote from the film.
+      - Invites to fill out the review form.
+
+      - ![home page](assets/images/readfile/the%20pursuit%20of%20happyness.png)
 
 
-------------------------
+
+
+
+
+  
+
 
 ## Technologies Used
-- HTML - was used as the foundation of the site.
-- CSS - was used to add the styles and layout of the site.
 
-- CSS Grid - was used to make "Cast" section responsive.
-- CSS Flex - was used to arrange "Award" section arrange symmetrically on the pages.
-- CSS roots - was used to declaring global CSS variables and apply them throughout the project.
-- VSCode - was used as the main tool to write and edit code.
-- Git - was used for the version control of the website.
-- GitHub - was used to host the code of the website.
------------------------------
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) -was used as the foundation of the site.
+[CSS](https://developer.mozilla.org/en-US/docs/Web/css) -was used to add the styles and layout of the site.
+[CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) -was used to make "Cast" section responsive.
+[CSS Flex](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange "Award" section arrange symmetrically on the pages.
+[CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project.
+[Figma](https://www.figma.com/) - was used to make wireframes for the website
+[VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
+[Git](https://git-scm.com/) - was used for the version control of the website.
+[GitHub](https://github.com/) - was used to host the code of the website.
+
 ## Design
 
 ###COLOR SCHEME
@@ -74,8 +108,8 @@ This overall color scheme used throughout the site was the variety of colours in
 ---------------------------
 
 ## Wireframes
-[Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/desktop.jpg)
-[Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/mobile.jpg)
+[Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/desktop_screen.png)
+[Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/mobile_screen.png)
 
 ## Features
 The following features have been used in this project:
@@ -159,5 +193,6 @@ If you need to make a local clone:
 
 
 ### Background Images:
-1. [About page](https://www.netflix.com/title/70044605)
-2. [Review Page](https://www.wallpaperflare.com/the-pursuit-of-happyness-movies-wallpaper-titjo)
+1. [Cast & Awards pages](https://unsplash.com/photos/78uNJt1kPw8)
+2. [About page](https://www.netflix.com/title/70044605)
+3. [Review Page](https://www.wallpaperflare.com/the-pursuit-of-happyness-movies-wallpaper-titjo)
