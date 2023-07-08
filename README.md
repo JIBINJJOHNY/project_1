@@ -72,10 +72,58 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 
       - ![home page](assets/images/readfile/the%20pursuit%20of%20happyness.png)
 
+--------------------------------------
+##### Hero Section
+ - Hero section have a fixed background image.
+    - ![hero image](assets/images/home/hero-image4.jpeg)
+
+##### Cast section
+  - The cast section contains the main characters in the film.
+  - Tells website visitors the name of the character in the film, along with the cast picture and real name.
+  - Images are animated on hover.
+    - ![cast section](assets/images/readfile/cast.png)
+
+##### Awards
+
+- The Awards section contains the major awards and nominations that the film has received.
+- Each of the cards has a picture of an award.
+- Each cards are animated on hover.
+  -![award section](assets/images/readfile/awards.png)
+
+##### Quotes section
+  - Quotes section includes an inspirational quote from the film.
+    - ![quotes section](assets/images/readfile/quotes.png)
+
+ ##### Review Section
+  - All of the text input fields are customised.
+
+  - All input fields are animated when the input field is in focus.
+
+  - All input fields are set to be required.
+
+  - It has a rating option for the visitors, they can rate the film from 1 to 5 stars.
+  - The submit button is animated on hover.
+
+  - The page is responsive on all common screen resolutions.
+
+  - The submit button leads to the response page.
+    - ![review section](assets/images/readfile/review.png)
+
+##### Response page
+  - The response page will appear after you submit the review form.
+  - It will have a thank you message and notification that your valuable review has been successfully submitted.
+  - It includes a "back to homepage" link to return to the homepage.
+    - ![response page](assets/images/readfile/response_page.png)
+##### Footer
+  - The footer contains social media links which open in a new tab.
+  - All social media links are animated on hover
+    - ![footer](assets/images/readfile/footer.png)
 
 
 
 
+
+----------------------------
 
   
 
@@ -92,14 +140,16 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 [Git](https://git-scm.com/) - was used for the version control of the website.
 [GitHub](https://github.com/) - was used to host the code of the website.
 
+-----------------------------------
+
 ## Design
 
-###COLOR SCHEME
+### Color Scheme
 
 This overall color scheme used throughout the site was the variety of colours in the image below.
 ![colors](assets/images/readfile/colors.png)
 
-###FONT FAMILY
+### Font Family
 ![font](assets/images/readfile/font.png)
 
 [Font Family Lato Regular 400](https://fonts.google.com/specimen/Lato?preview.text=the%20pursuit%20of%20happyness&preview.text_type=custom&query=Lato) was choosen to create this website 
@@ -164,7 +214,15 @@ If you need to make a local clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
 
-------------
+--------------------------------
+## Future improvements
+- Add image slider to hero image.
+- Add sliding text to quotes section.
+- Add Video Gallery for offical teaser.
+- add custom 404 page.
+- Improve commit message quality (I'm a git bigginer, so not all commits meet standards, but will try to improve in future)
+
+--------------------------------
 ## Credits
 
 - Lato Regular 400 font-family was imported from [google fonts](https://fonts.google.com/specimen/Lato?preview.text=the%20pursuit%20of%20happyness&preview.text_type=custom&query=Lato).
@@ -203,7 +261,7 @@ If you need to make a local clone:
 - [Figma](https://www.figma.com/) was used to create the logo.
 - [tiny png](https://tinypng.com/) was used to resize the size of images.
 - [RGBA Color Picker](https://rgbacolorpicker.com/) was used to select suitable color for background.
-
+-----------------------
 ## Acknowledgments
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) my mentor has been a great supporter, guiding me through the development of the project and helping me to learn a lot of new things by challenging me to do something new.
 - [Code Institute](https://codeinstitute.net/de/)  tutors and Slack community members for their support and help.
