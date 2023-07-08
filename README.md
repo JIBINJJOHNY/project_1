@@ -15,14 +15,15 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 - Features
 - Technologies Used
 - Design
-- Wireframes
-- Bugs
+    - Color Scheme
+    - Font Family
+    - Wireframes
+- Future improvments
 - Testing
   - Compatibility
   - Validator testing
   - Lighthouse Report
 - Deployment
-- Author
 - Credits
 - Acknowledgments
 --------------------
@@ -39,7 +40,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 5. As a potential viewer, I want to access social media links available in the footer section to connect with the film's official profiles and stay updated with the latest news and updates.
 -------------------------
 
-##Features
+## Features
 
 - ### Navbar
 
@@ -119,14 +120,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - All social media links are animated on hover
     - ![footer](assets/images/readfile/footer.png)
 
-
-
-
-
 ----------------------------
-
-  
-
 
 ## Technologies Used
 
@@ -161,18 +155,14 @@ This overall color scheme used throughout the site was the variety of colours in
 [Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/desktop_screen.png)
 [Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/mobile_screen.png)
 
-## Features
-The following features have been used in this project:
-
-- Hover
-
-    Tells the user solve now,  navabar ,cast images ,award images ,submit button and social media icons are highlighted.
-    Mouse pointer changes to a hand to indicate a clickable area.
+----------------------------
+##Testing
+All test related documentation can be found in the [TESTING.md](TESTING.md) file.
 
 ----------------------------
 ## Deployment
 
-### INITIAL DEPLOYMENT
+### Initial Deployment
 This site was deployed using GitHub Pages with the following the steps below:
 1. Login or Sign Up to GitHub.
 2. Create a new repository named project1.
@@ -183,14 +173,14 @@ This site was deployed using GitHub Pages with the following the steps below:
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
 
-### HOW TO FORK A REPOSITORY
+### How to fork a respository
 If you need to make a copy of a repository:
 
 1. Login or Sign Up to GitHub.
 2. On GitHub, go to project1.
 In the top right corner, click "Fork".
 
-### HOW TO CLONE A REPOSITORY
+### How to clone a repository
 If you need to make a clone:
 
 1. Login in to GitHub.
@@ -202,7 +192,7 @@ If you need to make a clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter to create your clone.
 
-### HOW TO MAKE A LOCAL CLONE
+### How to make a local clone
 If you need to make a local clone:
 
 1. Login in to GitHub.

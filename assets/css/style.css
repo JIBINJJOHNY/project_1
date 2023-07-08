@@ -180,7 +180,7 @@ header label{
     color: rgb(8, 7, 7);
     line-height: 32px;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 30px;
 }
 .story-about  > h3{
@@ -428,7 +428,7 @@ footer {
         font-size: 20px;
     }
 #awards{
-    height: 1300px;
+    height: 1350px;
    }
     .cards {
         padding: 10px;}
@@ -483,6 +483,9 @@ footer {
     }
 /* For small screens sizes from 750px wide and down */
 @media screen and (max-width:600px) {
+    .logo{
+        max-width: 150px;
+    }
     .hero-image{
         background-position: center center;
     }
@@ -490,18 +493,22 @@ footer {
         padding: 10px 5%;
         height: 1500px;
     }
+    .cast_images{
+        max-width: 130px;
+    }
     .main_cast {
-        padding-right: 60px;
+        padding-right: 20px;
     }
 #awards{
-    height: 1400px;
+    height: 2100px;
     }
 .cards {
+    flex: 1 1 50%;
     margin: 10px 15px;
     padding: 10px;
     }
     #about>.story-about{
-        font-size: 15px;
+        font-size: 1rem;
     }
     .review-form {
         padding: 80px;
