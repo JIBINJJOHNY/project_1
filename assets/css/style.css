@@ -524,13 +524,19 @@ footer {
     }
     .form-btn button:hover {
         background-color: #0b3e0d;
-    }.review_submit{
+    }.star-rating{
+        width: 140px;
+    }
+    .review_submit{
         background: url(../images/home/image.jpeg);
         height: 900px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
-    }.cover_text {
+    }.social-media li {
+        margin: 0px 30px;
+    }
+    .cover_text {
         width: 500px;
         height: 300px;
         padding: 10px;
