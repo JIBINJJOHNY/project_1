@@ -170,6 +170,8 @@ If you need to make a local clone:
 - Lato Regular 400 font-family was imported from [google fonts](https://fonts.google.com/specimen/Lato?preview.text=the%20pursuit%20of%20happyness&preview.text_type=custom&query=Lato).
 - Icons were sources from [Font Awesome](https://fontawesome.com/search).
 - Home image took from [spirituality practice](https://www.spiritualityandpractice.com/films/reviews/view/16385/the-pursuit-of-happyness).
+- Inspiration for the responsive hamburger navbar came from [CodingNepal](https://www.youtube.com/@CodingNepal) on his YouTube channel.
+- Inspiration for the responsive Star Rating Widget with CSS from [Nevin Katz](https://codepen.io/nevkatz) on website codepen.
 
 ### Cast Images:
 1. [Will Smith](https://www.filmstarts.de/personen/19358.html)
@@ -196,3 +198,14 @@ If you need to make a local clone:
 1. [Cast & Awards pages](https://unsplash.com/photos/78uNJt1kPw8)
 2. [About page](https://www.netflix.com/title/70044605)
 3. [Review Page](https://www.wallpaperflare.com/the-pursuit-of-happyness-movies-wallpaper-titjo)
+
+### Tools
+- [Figma](https://www.figma.com/) was used to create the logo.
+- [tiny png](https://tinypng.com/) was used to resize the size of images.
+- [RGBA Color Picker](https://rgbacolorpicker.com/) was used to select suitable color for background.
+
+## Acknowledgments
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) my mentor has been a great supporter, guiding me through the development of the project and helping me to learn a lot of new things by challenging me to do something new.
+- [Code Institute](https://codeinstitute.net/de/)  tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) for his html and CSS tutorials.
+- [Mr. Web Designer](https://www.youtube.com/@MrWebDesignerAnas) for his html and CSS tutorials.

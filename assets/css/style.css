@@ -342,17 +342,18 @@ footer {
 .review_submit{
     background: url(../images/home/image.jpeg);
     height: 900px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-.cover_text{
-    width:600px;
-    height:600px;
+.cover_text {
+    width: 600px;
+    height: 500px;
     padding: 20px;
     position: absolute;
     bottom: 50px;
-    right: 200px;
+    right: 50px;
 }.cover_text > h1{
     text-transform: uppercase;
     font-size: 5rem;
@@ -361,6 +362,7 @@ footer {
 
 }.cover_text > p{
     font-size: 2rem;
+    padding-bottom: 20px;
 }
 /* Media queries */
 /* For large to medium screens sizes from 1274px wide and down */
@@ -580,10 +582,25 @@ footer {
     .form-btn button:hover {
         background-color: #0b3e0d;
     }
-}
-
+    .review_submit{
+        background-position: left;
+        
+        }
+        .cover_text {
+            width: 600px;
+            height: 300px;
+            padding: 20px;
+            position: absolute;
+            bottom: 90px;
+            right: 90px;
+            background: rgba(242, 240, 241, 0.7);
+        }
+    }
 /* For small screens sizes from 750px wide and down */
 @media screen and (max-width:600px) {
+    .hero-image{
+        background-position: center center;
+    }
 #cast {
         padding: 10px 5%;
         background: url(../images/cast/cast_background.jpg);
@@ -642,7 +659,7 @@ footer {
         height: 1000px;
         background: linear-gradient(rgba(0, 0, 0, 0.6), #f5eeee), url(../images/home/image.jpeg);
         background-size: cover;
-        background-position: center;
+        background-position: left;
     }
     .review-form {
         margin: 0px auto;
@@ -744,5 +761,30 @@ footer {
     }
     .form-btn button:hover {
         background-color: #0b3e0d;
+    }.review_submit{
+        background: url(../images/home/image.jpeg);
+        height: 900px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+    }.cover_text {
+        width: 500px;
+        height: 300px;
+        padding: 10px;
+        position: absolute;
+        bottom: 50px;
+        right: 10px;
+        background: rgba(242, 240, 241, 0.7);
     }
+    .cover_text > h1{
+        text-transform: uppercase;
+        font-size: 4rem;
+        color: #2ca03f;
+        font-weight: bold;
+    
+    }.cover_text > p{
+        font-size: 2rem;
+        padding-bottom: 10px;
+        
+   }
 }
