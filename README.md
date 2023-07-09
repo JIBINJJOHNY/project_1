@@ -156,7 +156,7 @@ This overall color scheme used throughout the site was the variety of colours in
 [Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/mobile_screen.png)
 
 ----------------------------
-##Testing
+## Testing
 All test related documentation can be found in the [TESTING.md](TESTING.md) file.
 
 ----------------------------
