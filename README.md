@@ -7,26 +7,9 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 
  The site can be accessed by this [link](https://jibinjjohny.github.io/projrct_1/)
 
-![mockup screenshot](assets/images/readfile/screenshot.png)
+![mockup screenshot](assets/images/readme_images/screenshot.png)
 
-## Table of contents
-
-- User Stories
-- Features
-- Technologies Used
-- Design
-    - Color Scheme
-    - Font Family
-    - Wireframes
-- Future improvments
-- Testing
-  - Compatibility
-  - Validator testing
-  - Lighthouse Report
-- Deployment
-- Credits
-- Acknowledgments
---------------------
+--------------------------------------
 ## User Stories
 
 1. As a movie enthusiast, I want to explore the cast section to learn about the actors involved in "The Pursuit of Happyness" and their respective roles.
@@ -55,12 +38,12 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
       - REVIEW -leads to the review form page, where users can share their reviews and ratings of films.
     - The links have animated hover effect.  
     - The navigation is clear and easy to understand for the user.
-      - ![navigationbar](assets/images/readfile/navbar.png)
+      - ![navigationbar](assets/images/readme_images/navbar.png)
     - The navigation bar is responsive with hamburger menu:
 
-      - ![tablet navbar](assets/images/readfile/tablet_nav.png)
+      - ![tablet navbar](assets/images/readme_images/tablet_nav.png)
     - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-      - ![mobile navbar](assets/images/readfile/mobile_navg.png)
+      - ![mobile navbar](assets/images/readme_images/mobile_navg.png)
 
 ##### Home Page:
    - Represent:
@@ -71,7 +54,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
       - The famous inspiring quote from the film.
       - Invites to fill out the review form.
 
-      - ![home page](assets/images/readfile/the%20pursuit%20of%20happyness.png)
+      - ![home page](assets/images/readme_images/the%20pursuit%20of%20happyness.png)
 
 --------------------------------------
 ##### Hero Section
@@ -82,18 +65,18 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - The cast section contains the main characters in the film.
   - Tells website visitors the name of the character in the film, along with the cast picture and real name.
   - Images are animated on hover.
-    - ![cast section](assets/images/readfile/cast.png)
+    - ![cast section](assets/images/readme_images/cast.png)
 
 ##### Awards
 
 - The Awards section contains the major awards and nominations that the film has received.
 - Each of the cards has a picture of an award.
 - Each cards are animated on hover.
-  -![award section](assets/images/readfile/awards.png)
+  -![award section](assets/images/readme_images/awards.png)
 
 ##### Quotes section
   - Quotes section includes an inspirational quote from the film.
-    - ![quotes section](assets/images/readfile/quotes.png)
+    - ![quotes section](assets/images/readme_images/quotes.png)
 
  ##### Review Section
   - All of the text input fields are customised.
@@ -108,17 +91,17 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - The page is responsive on all common screen resolutions.
 
   - The submit button leads to the response page.
-    - ![review section](assets/images/readfile/review.png)
+    - ![review section](assets/images/readme_images/review.png)
 
 ##### Response page
   - The response page will appear after you submit the review form.
   - It will have a thank you message and notification that your valuable review has been successfully submitted.
   - It includes a "back to homepage" link to return to the homepage.
-    - ![response page](assets/images/readfile/response_page.png)
+    - ![response page](assets/images/readme_images/response_page.png)
 ##### Footer
   - The footer contains social media links which open in a new tab.
   - All social media links are animated on hover
-    - ![footer](assets/images/readfile/footer.png)
+    - ![footer](assets/images/readme_images/footer.png)
 
 ----------------------------
 
@@ -141,8 +124,16 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 ### Color Scheme
 
 This overall color scheme used throughout the site was the variety of colours in the image below.
-![colors](assets/images/readfile/colors.png)
+![colors](assets/images/readme_images/colors.png)
 
+-  Red was used for heading it is a highly visible color that naturally draws attention. By using #dc143c for website headings, it helps capture the user's focus and guide their attention to important information or key messages
+- Grey was used for the hover effect of the navigation bar and is a neutral colour that can provide a balanced and understated look. It doesn't overwhelm other elements on the site and can create a sense of professionalism and sophistication.
+-  Pale pink was a muted colour, it is used for quote backgrounds it can create a soft and delicate visual effect. It evokes a sense of softness.
+- The tan color was used for cast image border. It can give a classic and enduring look to the website, ensuring that the design remains relevant and visually appealing over time.
+- Medium-dark shade of green, can create a visually striking and attention-grabbing effect for the submit button. It helps draw the user's eye and signals that it is an interactive element to complete an action
+- Dark shade of green that offers a strong contrast against lighter backgrounds. When users hover over the submit button, the change to #0b3e0d creates a noticeable visual feedback, indicating that the button is interactive and responsive to user actions.
+-  Vibrant shade of yellow. It provides a high contrast against most text colors, making the highlighted paragraphs stand out prominently from the surrounding content. This ensures that the highlighted information catches the reader's attention.
+- Rich shade of red. It provides a strong contrast against lighter backgrounds, making the quote text stand out prominently. This high contrast ensures that the quote immediately captures the reader's attention
 ### Font Family
 ![font](assets/images/readfile/font.png)
 
@@ -152,8 +143,8 @@ This overall color scheme used throughout the site was the variety of colours in
 ---------------------------
 
 ## Wireframes
-[Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/desktop_screen.png)
-[Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readfile/mobile_screen.png)
+[Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readme_images/desktop_screen.png)
+[Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readme_images/mobile_screen.png)
 
 ----------------------------
 ## Testing
@@ -162,47 +153,17 @@ All test related documentation can be found in the [TESTING.md](TESTING.md) file
 ----------------------------
 ## Deployment
 
-### Initial Deployment
-This site was deployed using GitHub Pages with the following the steps below:
-1. Login or Sign Up to GitHub.
-2. Create a new repository named project1.
-3. Once created, click on "Settings" on the navigation bar under the repository title.
-4. Click on "Pages", on the left hand side below Secrets.
-5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
-6. Choose which folder to deploy from, generally from "/root".
-7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
-8. The URL will be displayed above the "source" section in GitHub Pages.
+- The site has been deployed on GitHub pages. The steps to deploy are as follows:
+  - In the [GitHub repository](https://github.com/JIBINJJOHNY/projrct_1), go to the Settings tab.
+  - Select **Main** Branch from the Source Section drop-down menu, then click Save.
+  - The page will be automatically refreshed with a detailed ribbon display to show that the deployment has been successful.
+  - The live link can be found [here](https://jibinjjohny.github.io/projrct_1`).
 
-### How to fork a respository
-If you need to make a copy of a repository:
+### Local Deployment
+- To create a local copy of this project, you can clone it. In the terminal window of your IDE, type the following command to clone my repository:
+  - git clone https://github.com/JIBINJJOHNY/projrct_1.git
+  - Alternatively, if you are using Gitpod, you can [click here](https://gitpod.io/new/#https://github.com/JIBINJJOHNY/projrct_1) to launch your Gitpod working environment.
 
-1. Login or Sign Up to GitHub.
-2. On GitHub, go to project1.
-In the top right corner, click "Fork".
-
-### How to clone a repository
-If you need to make a clone:
-
-1. Login in to GitHub.
-2. Fork the repository project1 using the steps above in How To Fork a Repository.
-3. Above the file list, click "Code".
-4. Choose if you want to close using HTTPS, SSH or  GitHub CLI, then click the copy button to the right.
-5. Open Git Bash.
-6. Change the directory to where you want your clone to go.
-7. Type git clone and then paste the URL you copied in step 4.
-8. Press Enter to create your clone.
-
-### How to make a local clone
-If you need to make a local clone:
-
-1. Login in to GitHub.
-2. Under the repository name, above the list of files, click "Code".
-3. Here you can either Clone or Download the repository.
-4. You should close the repository using HTTPS, clicking on the icon to copy the link.
-5. Open Git Bash.
-6. Change the current working directory to the new locaiton, where you want the cloned directory to be.
-7. Type git clone and then paste the URL you copied in step 4.
-8. Press Enter, and your local clone will be created.
 
 --------------------------------
 ## Future improvements
@@ -228,7 +189,7 @@ If you need to make a local clone:
 4. [Brian Howe](https://www.rottentomatoes.com/celebrity/brian_howe)
 5. [Dan Castellaneta](https://aladdin.fandom.com/wiki/Dan_Castellaneta)
 6. [Takayo Fisher](https://megogo.net/ru/name/1455591-takayo-fisher.html)
-7. [James Karen](https://www.microsoft.com/en-au/store/movies-and-tv)
+7. [James Karen](https://www.google.com/search?q=james+karen&rlz=1C5CHFA_enDE951DE951&oq=james&aqs=chrome.2.69i57j69i64j69i59j46i340i512j46i512j69i60l3.4257j0j7&sourceid=chrome&ie=UTF-8#vhid=NFUhgS8wE5UocM&vssid=l)
 8. [Kevin West](https://www.imdb.com/name/nm0922182/)
 9. [Domenic Bove](https://www.imdb.com/name/nm2044962/)
 
