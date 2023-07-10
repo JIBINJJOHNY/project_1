@@ -11,33 +11,41 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>The pursuit of happyness</title>
 </head>
+
 <body>
-  <!-- Header --> 
-<header>
-      <a href="index.html" aria-label= "redirect to home section">
-        <img src="assets/images/home/logo.png" alt="website logo" class="logo"></a>
-          <!--Hamburger Menu -->
-        <input type="checkbox" id="toggle-button">
-        <label for="toggle-button"><i class="fa-solid fa-bars fa-xl"></i></label>
-  <nav>
-    <ul>
-        <li><a href="#" aria-label="redirect to home section">Home</a></li>
-        <li><a href="#cast" aria-label="redirect to cast section">Cast</a></li>
-        <li><a href="#awards" aria-label="redirect to awards section">Awards</a></li>
-        <li><a href="#about" aria-label="redirect to about section">About</a></li>
-        <li><a href="#review" aria-label="redirect to review section">Review</a></li>
+  <!-- Header -->
+  <header>
+    <a href="index.html" aria-label="redirects to home section, contains image from film">
+      <img src="assets/images/home/logo.png" alt="website logo" class="logo">
+    </a>
+    <!--Hamburger Menu -->
+    <input type="checkbox" id="toggle-button">
+    <label for="toggle-button"><i class="fa-solid fa-bars fa-xl"></i></label>
+    <nav>
+      <ul>
+        <li><a href="#" aria-label="redirects to home section, contains image from film ">Home</a></li>
+        <li><a href="#cast"
+            aria-label="redirect to cast section to learn about the film's main actors and characters.">Cast</a></li>
+        <li><a href="#awards"
+            aria-label="redirect to awards section to see the film's major awards and nominations.">Awards</a></li>
+        <li><a href="#about" aria-label="redirect to about section to see an overview of the film.">About</a></li>
+        <li><a href="#review"
+            aria-label="redirect to review section leads to the review form , where users can share their reviews and ratings of films.">Review</a>
+        </li>
       </ul>
     </nav>
-  </header> 
+  </header>
   <!-- Main Section -->
   <main>
     <!-- Hero image -->
     <section id="hero-outer">
+      <h1>An image from film</h1>
       <h2>main image</h2>
       <div class="hero-image"></div>
     </section>
     <!-- Cast page -->
     <section id="cast">
+      <h1>Leading Actores in the film</h1>
       <h2>Cast</h2>
       <div class="main_cast">
         <figure>
@@ -80,7 +88,8 @@
       </div>
     </section>
     <!-- Award page -->
-   <section id="awards">
+    <section id="awards">
+      <h1>Notable awards and Nominations </h1>
       <h2>Awards</h2>
       <div class="award_column">
         <figure class="cards">
@@ -89,7 +98,7 @@
           <figcaption class="awards_name">
             <h3>Academy Awards (Oscars)</h3>
             <p>
-              Nomination for Best Actor - Will Smith 
+              Nomination for Best Actor - Will Smith
               Nomination for Best Original Song - "Listen" by Will.i.am
             </p>
           </figcaption>
@@ -145,7 +154,7 @@
             <h3>Golden Glob Awards</h3>
             <p>
               Nomination for best performance by an Actor in a Motion Picture
-              drama-Will Smith 
+              drama-Will Smith
               Nomination for best original song Motion Picture
               seal(music/lyric)-Christopher Bruce(music)
             </p>
@@ -155,6 +164,7 @@
     </section>
     <!-- About page -->
     <section id="about">
+      <h1>A short overview of film</h1>
       <h2>About</h2>
       <article class="story-about">
         <h3>movie story</h3>
@@ -215,15 +225,16 @@
         <p class="quote-text">
           <q>
             don't ever let somebody tell you. you can't do something. not even me. all right? you got a dream.
-            you gotta protect it. people can't do somethin' themselves, they wanna tell you you can't do it. 
+            you gotta protect it. people can't do somethin' themselves, they wanna tell you you can't do it.
             if you want something go get it. period.</q>
         </p>
       </blockquote>
     </section>
     <!-- Review page -->
     <section id="review">
+      <h1>User can share review and rating</h1>
       <h2>Review</h2>
-      <form method="GET" action="review.html" class="review-form" id="user_review">
+      <form method="GET" action="response.html" class="review-form" id="user_review">
         <div>
           <label for="name"><i class="far fa-user"></i> Name:</label>
           <input type="text" id="name" name="name" placeholder="Name" required>
@@ -238,15 +249,15 @@
         </div>
         <label><i class=" fa-regular fa-star"></i> Rating:</label>
         <div class="star-rating">
-          <input type="radio" id="star1" name="stars"  value="5" required>
+          <input type="radio" id="star1" name="stars" value="5" required>
           <label for="star1"></label>
-          <input type="radio" id="star2" name="stars"  value="4">
+          <input type="radio" id="star2" name="stars" value="4">
           <label for="star2"></label>
-          <input type="radio" id="star3"  name="stars" value="3">
+          <input type="radio" id="star3" name="stars" value="3">
           <label for="star3"></label>
-          <input type="radio" id="star4" name="stars"  value="2">
+          <input type="radio" id="star4" name="stars" value="2">
           <label for="star4"></label>
-          <input type="radio" id="star5" name="stars"  value="1">
+          <input type="radio" id="star5" name="stars" value="1">
           <label for="star5"></label>
         </div>
         <div class="form-btn">
@@ -262,28 +273,32 @@
       <li>
         <a href="https://facebook.com" target="_blank" rel="noopener" class="icon-links"
           aria-label="Visit our Facebook page (opens in a new tab)">
-          <i class="fa-brands fa-facebook"></i></a>
+          <i class="fa-brands fa-facebook"></i>
+        </a>
       </li>
       <li>
         <a href="https://instagram.com" target="_blank" rel="noopener" class="icon-links"
           aria-label="Visit our Instagram page (opens in a new tab)">
-            <i class="fa-brands fa-instagram"></i></a>
+          <i class="fa-brands fa-instagram"></i>
+        </a>
       </li>
 
       <li>
         <a href="https://youtube.com" target="_blank" rel="noopener" class="icon-links"
           aria-label="Visit our YouTube page (opens in a new tab)">
-            <i class="fa-brands fa-youtube"></i></a>
+          <i class="fa-brands fa-youtube"></i>
+        </a>
       </li>
       <li>
         <a href="https://twitter.com" target="_blank" rel="noopener" class="icon-links"
           aria-label="Visit our Twitter page (opens in a new tab)">
-            <i class="fa-brands fa-twitter"></i></a>
+          <i class="fa-brands fa-twitter"></i>
+        </a>
       </li>
     </ul>
     <p>©2023 All Rights Reserved.</p>
   </footer>
   <!--Script for icons "Font Awesome"-->
-    <script src="https://kit.fontawesome.com/808d24aade.js" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://kit.fontawesome.com/808d24aade.js" crossorigin="anonymous"></script>
+</body>
 </htmldjf

@@ -138,8 +138,9 @@ This overall color scheme used throughout the site was the variety of colours in
 
 [Font Family Lato Regular 400](https://fonts.google.com/specimen/Lato?preview.text=the%20pursuit%20of%20happyness&preview.text_type=custom&query=Lato) was choosen to create this website 
 
+- Lato Google Font has been used as the main font of the website to improve the readability of the content on the pages.
 
----------------------------
+--------------------------
 
 ## Wireframes
 - [Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/readme_images/desktop_screen.png)
