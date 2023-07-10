@@ -111,7 +111,6 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) -was used to add the styles and layout of the site.
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) -was used to make "Cast" section responsive.
 - [CSS Flex](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange "Award" section arrange symmetrically on the pages.
-- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project.
 - [Figma](https://www.figma.com/) - was used to make wireframes for the website
 - [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) - was used for the version control of the website.
