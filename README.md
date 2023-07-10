@@ -65,14 +65,14 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - The cast section contains the main characters in the film.
   - Tells website visitors the name of the character in the film, along with the cast picture and real name.
   - Images are animated on hover.
-    - ![cast section](./readme_images/)
+    - ![cast section](./readme_images/cast.png)
 
 ##### Awards
 
 - The Awards section contains the major awards and nominations that the film has received.
 - Each of the cards has a picture of an award.
 - Each cards are animated on hover.
-  -![award section](./readme_images/awards.png)
+  - ![award section](./readme_images/awards.png)
 
 ##### Quotes section
   - Quotes section includes an inspirational quote from the film.
@@ -143,8 +143,8 @@ This overall color scheme used throughout the site was the variety of colours in
 ---------------------------
 
 ## Wireframes
-[Here is the Desktop wireframe]()
-[Here is the mobile wireframe]()
+- [Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/readme_images/desktop_screen.png)
+- [Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/readme_images/mobile_screen.png)
 
 ----------------------------
 ## Testing

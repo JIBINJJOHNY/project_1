@@ -345,9 +345,9 @@ footer {
     transform: scale(1.1);
 }
 /* Response page */
-.review_submit{
+.respond_page{
     background: url(../images/home/image.jpeg);
-    height: 900px;
+    height: 800px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -355,10 +355,9 @@ footer {
 }
 .cover_text {
     width: 600px;
-    height: 500px;
     padding: 20px;
     position: absolute;
-    bottom: 50px;
+    top: 150px;
     right: 50px;
 }.cover_text > h1{
     text-transform: uppercase;
@@ -373,14 +372,14 @@ footer {
 /* Media queries */
 /* For large to medium screens sizes from 1274px wide and down */
 @media screen and (max-width:1200px) {
-#cast {
+    #cast {
         height: 1000px;
     }
     .main_cast {
         gap: 1rem;
         margin-right: 30px;
     }
-#awards {
+    #awards {
     height: 1200px;
     }
     .cards {
@@ -415,7 +414,7 @@ footer {
     nav a{
         padding: 10px;
     }
-#cast {
+    #cast {
         padding: 10px 5%;
         height: 1300px;
     }
@@ -432,61 +431,36 @@ footer {
     .cast_name {
         font-size: 20px;
     }
-#awards{
+    #awards{
     height: 1350px;
-   }
+    }
     .cards {
         padding: 10px;}
     #about{
         background-position:center center;
     }
- #review {
+    #review {
         background: linear-gradient(rgba(0, 0, 0, 0.3), #f5eeee), url(../images/home/image.jpeg);
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
     }
     .review-form {
-        margin: 0 auto;
-        color: #fff;
-        background-color:rgba(60, 60, 60, 0.4);
-        max-width: 500px;
         width: 90%;
-        position: relative;
-        left: 0%;
         padding: 80px;
     }
-    div {
-        margin-bottom: 30px;
-    }
-
-    label {
-        display: flex;
-        width: 50px;
-        font-weight: bold;
-    }
     .form-btn button {
-        width: 100%;
-        padding: 10px;
         font-size: 20px;
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        background: #2ca03f;
     }
-    .form-btn button:hover {
-        background-color: #0b3e0d;
-    }
-    .review_submit{
+    .respond_page{
         background-position: left;
         }
         .cover_text {
-            width: 600px;
+            width: 500px;
             height: 300px;
-            padding: 20px;
-            position: absolute;
+            padding: 14px;
             bottom: 90px;
-            right: 90px;
+            right: 55px;
             background: rgba(242, 240, 241, 0.7);
         }
     }
@@ -498,7 +472,7 @@ footer {
     .hero-image{
         background-position: center center;
     }
-#cast {
+    #cast {
         padding: 10px 5%;
         height: 1500px;
     }
@@ -508,10 +482,10 @@ footer {
     .main_cast {
         padding-right: 20px;
     }
-#awards{
+    #awards{
     height: 2100px;
     }
-.cards {
+    .cards {
     flex: 1 1 50%;
     margin: 10px 15px;
     padding: 10px;
@@ -523,46 +497,30 @@ footer {
         padding: 80px;
     }
     .form-btn button {
-        width: 100%;
-        padding: 10px;
-        font-size: 20px;
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        background: #2ca03f;
         margin-top: 25px;
     }
-    .form-btn button:hover {
-        background-color: #0b3e0d;
-    }.star-rating{
+    .star-rating{
         width: 108px;
     
     }
-    .review_submit{
-        background: url(../images/home/image.jpeg);
-        height: 900px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left;
-    }.social-media li {
+    .social-media li {
         margin: 0px 25px;
     }
+    main{
+        background-position: left;
+    }
     .cover_text {
-        width: 500px;
-        height: 300px;
+        width: 400px;
+        height: 281px;
         padding: 10px;
-        position: absolute;
         bottom: 50px;
-        right: 10px;
-        background: rgba(242, 240, 241, 0.7);
+        right: 40px;
+        background: rgba(242, 240, 241, 0.8);
     }
     .cover_text > h1{
-        text-transform: uppercase;
         font-size: 4rem;
-        color: #2ca03f;
-        font-weight: bold;
+
     }.cover_text > p{
-        font-size: 2rem;
         padding-bottom: 10px;    
-  }
+   }
 }
