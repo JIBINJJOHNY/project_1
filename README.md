@@ -97,7 +97,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - The response page will appear after you submit the review form.
   - It will have a thank you message and notification that your valuable review has been successfully submitted.
   - It includes a "back to homepage" link to return to the homepage.
-    - ![response page](./readme_images/response_page.png)
+    - ![response page](./readme_images/responsepage.png)
 ##### Footer
   - The footer contains social media links which open in a new tab.
   - All social media links are animated on hover
@@ -107,15 +107,15 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 
 ## Technologies Used
 
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) -was used as the foundation of the site.
-[CSS](https://developer.mozilla.org/en-US/docs/Web/css) -was used to add the styles and layout of the site.
-[CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) -was used to make "Cast" section responsive.
-[CSS Flex](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange "Award" section arrange symmetrically on the pages.
-[CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project.
-[Figma](https://www.figma.com/) - was used to make wireframes for the website
-[VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
-[Git](https://git-scm.com/) - was used for the version control of the website.
-[GitHub](https://github.com/) - was used to host the code of the website.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) -was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) -was used to add the styles and layout of the site.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) -was used to make "Cast" section responsive.
+- [CSS Flex](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange "Award" section arrange symmetrically on the pages.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project.
+- [Figma](https://www.figma.com/) - was used to make wireframes for the website
+- [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) - was used for the version control of the website.
+- [GitHub](https://github.com/) - was used to host the code of the website.
 
 -----------------------------------
 
