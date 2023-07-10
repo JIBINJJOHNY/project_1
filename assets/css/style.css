@@ -109,6 +109,7 @@ header label{
     height: 200px;
     max-width: 200px;
     object-fit: cover;
+    object-position: top;
     border: 6px solid #BFA561;
     border-radius: 5%;
     box-shadow: 10px 5px 5px rgb(58, 37, 37);
@@ -170,6 +171,7 @@ header label{
     background: url(../images/home/hero-image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 #about>.story-about {
     background: rgba(240, 240, 221, 0.7);
@@ -264,6 +266,7 @@ textarea {
     gap: 3rem;
     margin: 60px;
     position: relative;
+  
 }
 /* hide the inputs */
 .star-rating input {
@@ -276,6 +279,7 @@ textarea {
     font-size: 35px;
     transition: 0.1s ease-in;
     color: #edcf0e;
+    cursor: pointer;
 }
 /* give label a hover state */
 .star-rating label:hover {
@@ -310,6 +314,7 @@ textarea {
     color: #fff;
     font-weight: bold;
     background: #2ca03f;
+    cursor: pointer;
 }
 .form-btn button:hover {
     background-color: #0b3e0d;
@@ -432,6 +437,9 @@ footer {
    }
     .cards {
         padding: 10px;}
+    #about{
+        background-position:center center;
+    }
  #review {
         background: linear-gradient(rgba(0, 0, 0, 0.3), #f5eeee), url(../images/home/image.jpeg);
         background-repeat: no-repeat;
@@ -443,6 +451,7 @@ footer {
         color: #fff;
         background-color:rgba(60, 60, 60, 0.4);
         max-width: 500px;
+        width: 90%;
         position: relative;
         left: 0%;
         padding: 80px;
@@ -521,11 +530,13 @@ footer {
         border-radius: 5px;
         color: #fff;
         background: #2ca03f;
+        margin-top: 25px;
     }
     .form-btn button:hover {
         background-color: #0b3e0d;
     }.star-rating{
-        width: 140px;
+        width: 108px;
+    
     }
     .review_submit{
         background: url(../images/home/image.jpeg);

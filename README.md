@@ -7,7 +7,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 
  The site can be accessed by this [link](https://jibinjjohny.github.io/projrct_1/)
 
-![mockup screenshot](assets/images/readme_images/screenshot.png)
+![mockup screenshot](./readme_images/screenshot.png)
 
 --------------------------------------
 ## User Stories
@@ -38,12 +38,12 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
       - REVIEW -leads to the review form page, where users can share their reviews and ratings of films.
     - The links have animated hover effect.  
     - The navigation is clear and easy to understand for the user.
-      - ![navigationbar](assets/images/readme_images/navbar.png)
+      - ![navigationbar](./readme_images/navbar.png)
     - The navigation bar is responsive with hamburger menu:
 
-      - ![tablet navbar](assets/images/readme_images/tablet_nav.png)
+      - ![tablet navbar](./readme_images/tablet_nav.png)
     - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-      - ![mobile navbar](assets/images/readme_images/mobile_navg.png)
+      - ![mobile navbar](./readme_images/mobile_navg.png)
 
 ##### Home Page:
    - Represent:
@@ -54,7 +54,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
       - The famous inspiring quote from the film.
       - Invites to fill out the review form.
 
-      - ![home page](assets/images/readme_images/the%20pursuit%20of%20happyness.png)
+      - ![home page](./readme_images/homepage.png)
 
 --------------------------------------
 ##### Hero Section
@@ -65,18 +65,18 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - The cast section contains the main characters in the film.
   - Tells website visitors the name of the character in the film, along with the cast picture and real name.
   - Images are animated on hover.
-    - ![cast section](assets/images/readme_images/cast.png)
+    - ![cast section](./readme_images/)
 
 ##### Awards
 
 - The Awards section contains the major awards and nominations that the film has received.
 - Each of the cards has a picture of an award.
 - Each cards are animated on hover.
-  -![award section](assets/images/readme_images/awards.png)
+  -![award section](./readme_images/awards.png)
 
 ##### Quotes section
   - Quotes section includes an inspirational quote from the film.
-    - ![quotes section](assets/images/readme_images/quotes.png)
+    - ![quotes section](./readme_images/quotes.png)
 
  ##### Review Section
   - All of the text input fields are customised.
@@ -91,17 +91,17 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
   - The page is responsive on all common screen resolutions.
 
   - The submit button leads to the response page.
-    - ![review section](assets/images/readme_images/review.png)
+    - ![review section](./readme_images/review.png)
 
 ##### Response page
   - The response page will appear after you submit the review form.
   - It will have a thank you message and notification that your valuable review has been successfully submitted.
   - It includes a "back to homepage" link to return to the homepage.
-    - ![response page](assets/images/readme_images/response_page.png)
+    - ![response page](./readme_images/response_page.png)
 ##### Footer
   - The footer contains social media links which open in a new tab.
   - All social media links are animated on hover
-    - ![footer](assets/images/readme_images/footer.png)
+    - ![footer](./readme_images/footer.png)
 
 ----------------------------
 
@@ -124,7 +124,7 @@ Our website serves as a dedicated platform for fans of the film, as well as thos
 ### Color Scheme
 
 This overall color scheme used throughout the site was the variety of colours in the image below.
-![colors](assets/images/readme_images/colors.png)
+![colors](./readme_images/colors.png)
 
 -  Red was used for heading it is a highly visible color that naturally draws attention. By using #dc143c for website headings, it helps capture the user's focus and guide their attention to important information or key messages
 - Grey was used for the hover effect of the navigation bar and is a neutral colour that can provide a balanced and understated look. It doesn't overwhelm other elements on the site and can create a sense of professionalism and sophistication.
@@ -135,7 +135,7 @@ This overall color scheme used throughout the site was the variety of colours in
 -  Vibrant shade of yellow. It provides a high contrast against most text colors, making the highlighted paragraphs stand out prominently from the surrounding content. This ensures that the highlighted information catches the reader's attention.
 - Rich shade of red. It provides a strong contrast against lighter backgrounds, making the quote text stand out prominently. This high contrast ensures that the quote immediately captures the reader's attention
 ### Font Family
-![font](assets/images/readfile/font.png)
+![font](./readme_images/font.png)
 
 [Font Family Lato Regular 400](https://fonts.google.com/specimen/Lato?preview.text=the%20pursuit%20of%20happyness&preview.text_type=custom&query=Lato) was choosen to create this website 
 
@@ -143,8 +143,8 @@ This overall color scheme used throughout the site was the variety of colours in
 ---------------------------
 
 ## Wireframes
-[Here is the Desktop wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readme_images/desktop_screen.png)
-[Here is the mobile wireframe](https://github.com/JIBINJJOHNY/projrct_1/blob/main/assets/images/readme_images/mobile_screen.png)
+[Here is the Desktop wireframe]()
+[Here is the mobile wireframe]()
 
 ----------------------------
 ## Testing
