@@ -151,7 +151,7 @@ Review page | | | | | |
     -![css validator](./readme_images/cssvalidator.png)
 - 2 warnings were found
     - ![css validator warning](./readme_images/csswarning.png)
-     - imported style sheets are not checked
+     - It is happening simply because I have imported font family from google fonts.
      - The @-moz-document rule is specific to Mozilla Firefox and is not a standard CSS rule recognised by the W3C (World Wide Web Consortium).
     - The @-moz-document rule is a vendor-specific extension provided by Mozilla to target specific rules in Firefox only. It allows you to apply styles or rules specifically for Firefox browsers.
 
